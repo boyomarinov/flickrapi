@@ -54,7 +54,6 @@ namespace PhindAPI.Controllers
                                      PhotoCount = x.PhotoCount,
                                      Timezone = x.TimeZone
                                  });
-
                 return places;
             });
         }
